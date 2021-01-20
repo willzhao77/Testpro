@@ -30,7 +30,7 @@ const ContactCard = (props) => (
 
 const UserTool = (props) => (
     <div className='chat-detailBar'>
-        <button class="ui button">
+        <button className="ui button">
             <Icon name='add circle' size='large'/>
         </button>
         <Icon name='search' size='large'></Icon>
@@ -93,34 +93,35 @@ export default function TCChatBox() {
                 {/* right top corner, user tool component */}
                 <UserTool />
 
-                <Card centered>
+                <Card centered className="chat-userInfo">
                     <Card.Content>
                         <Image src={AlinaImage} />
                         <Card.Header>Heading 3</Card.Header>
                         <Card.Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin , sed rhoncus pronin sapien nunc </Card.Description>
-
                     </Card.Content>
-
                 </Card>
+
+
+
                 <Button primary>View details</Button>
 
                 <div className="ui divider"></div>
-                <div className='chat-detailSpace'>space</div>
+                <div className='chat-detailSpace'></div>
                 <div className="ui divider"></div>
 
-                <Grid>
-                    <Grid.Row>
-                        <Button primary>View details</Button>
-                        <Button primary>View details</Button>
-                        <Button primary>View details</Button>
-
+                <Grid className="chat-keywords">
+                    <Grid.Row centered>
+                        <Button primary>Python</Button>
+                        <Button primary>Analyst</Button>
+                        <Button primary>Analyst</Button>
                     </Grid.Row>
-                    <Grid.Row>
-                        <Button primary>View details</Button>
-                        <Button primary>View details</Button>
-                        <Button primary>View details</Button>
-
+                    <Grid.Row centered>
+                        <Button primary>Analyst</Button>
+                        <Button primary>Analyst</Button>
+                        <Button primary>Analyst</Button>
                     </Grid.Row>
+
+
 
                 </Grid>
 

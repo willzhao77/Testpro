@@ -50,11 +50,12 @@
 
 .chat-detail{
     background-color: #EDEFF2;
+    width: 20vw;
 }
 .chat-detailBar{
     display:flex;
     justify-content: space-around;
-    margin-right: 50px;
+    margin-right: 1vw;
 
 }
 
@@ -75,6 +76,10 @@
 
 
 
+.chat-detail .ui.card{
+    margin: 2vh 0 0 0;
+}
+
 
 /* this part for top right user tool componenet */
 /* systle for  Add Icon */
@@ -88,7 +93,7 @@
     padding-top: 8px;
     border-radius: 30%;
     color: white;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.28) 0px 8px 12px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 8px, rgba(0, 0, 0, 0.28) 0px 5px 8px;
 
 }
 
@@ -118,3 +123,53 @@
 }
 
 
+/* sytel for user info at chat page right side */
+.chat-userInfo .ui.image {
+    height: 15vh;
+}
+
+.ui.card.chat-userInfo > .content > .header:not(.ui){
+    margin-top: 2vh ;
+}
+
+
+.chat-detail .ui.card, .ui.cards > .card{
+    background:#EDEFF2;
+    box-shadow:0 0;
+}
+
+
+/* systel for user info button */
+.chat-detail .ui.primary.button{
+    background-color: #1D3767;
+    border-radius: 20px;
+}
+
+
+.chat-detail .ui.divider:not(.vertical):not(.horizontal){
+    width: 80%;
+    margin: 2vh auto;
+   
+}
+
+
+
+.chat-detailSpace{
+    background:#EDEFF2;
+}
+
+
+.chat-detail .ui.grid{
+    margin: 0;
+}
+
+
+.chat-detail .ui.primary.button{
+    font-size: 0.8vw;
+}
+
+
+
+.chat-detail .ui.grid{
+ 
+}
