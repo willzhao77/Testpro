@@ -1,0 +1,120 @@
+.chat{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 20vw 1fr 25vw;
+}
+/* 
+.chat h1, .chat h2, .chat h3, .chat h4 {
+    font-size:1.5em !important;
+} */
+
+.chat p, h1, h2, h3, h4, h5{
+    font-family: Arial !important;
+}
+
+.chat-contact{
+    background-color:papayawhip;
+    padding: 2vh 0.5rem;
+    
+}
+
+.chat-contactCard{
+    /* border:slategray 1px solid; */
+    background-color: snow;
+    margin: 10px 20px 10px 20px  !important;
+    padding:10px !important;
+    border-radius:15px ; 
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.chat-box{
+    background-color: lightpink;
+}
+
+.chat-boxHeader{
+    display:flex;
+    background-color: snow;
+    height: 10vh;
+}
+
+.chat-boxContent{
+    background-color: teal;
+    height: 80vh;
+}
+
+.chat-boxInput{
+    display:flex;
+}
+
+
+
+.chat-detail{
+    background-color: #EDEFF2;
+}
+.chat-detailBar{
+    display:flex;
+    justify-content: space-around;
+    margin-right: 50px;
+
+}
+
+.chat-detailSpace{
+    height: 20vh;
+    background-color: cadetblue;
+}
+
+
+
+
+.chat-detailBar.Button{
+    background-color: red;
+}
+
+
+
+
+
+
+
+/* this part for top right user tool componenet */
+/* systle for  Add Icon */
+.chat-detailBar button.ui.button{
+    background-color: #0DB269;
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 12px;
+    padding-top: 8px;
+    border-radius: 30%;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.28) 0px 8px 12px;
+
+}
+
+/* systle for  add Icon */
+.chat-detailBar button.ui.button:hover{
+    background-color: green;
+  }
+
+/* systle for  search Icon */
+.chat-detailBar .search.icon{
+    margin-top: 18px;
+}
+
+/* systle for  bell Icon */
+.chat-detailBar .bell.icon{
+    margin-top: 16px;
+}
+
+
+/* systle for  angle Icon */
+.chat-detailBar .angle.icon{
+    margin-top: 16px;
+}
+
+.chat-detailBar div{
+    display:flex;
+}
+
+
